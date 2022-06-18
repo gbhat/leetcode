@@ -1,6 +1,6 @@
 //https://leetcode.com/problems/n-queens-ii/
 
-public class N_Queens2 {
+public class N_Queens_II {
     int total = 0;
     public int totalNQueens(int n) {
         total = 0;
