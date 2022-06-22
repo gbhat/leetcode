@@ -24,4 +24,4 @@
 | <h3> 62. Unique Paths </h3> https://leetcode.com/problems/unique-paths/ | [UniquePaths.java](https://github.com/gbhat/leetcode/blob/main/src/UniquePaths.java) <br> [UniquePaths2.java](https://github.com/gbhat/leetcode/blob/main/src/UniquePaths2.java) | 
 | <h3> 63. Unique Paths II </h3> https://leetcode.com/problems/unique-paths-ii/ | [UniquePaths_II.java](https://github.com/gbhat/leetcode/blob/main/src/UniquePaths_II.java) | 
 | <h3> 1642. Furthest Building You Can Reach </h3> https://leetcode.com/problems/furthest-building-you-can-reach/ | [FarthestBuildingReach.java](https://github.com/gbhat/leetcode/blob/main/src/FarthestBuildingReach.java) <br> [FarthestBuildingReach2.java](https://github.com/gbhat/leetcode/blob/main/src/FarthestBuildingReach2.java) | 
-
+| <h3> 1942. The Number of the Smallest Unoccupied Chair  </h3> https://leetcode.com/problems/the-number-of-the-smallest-unoccupied-chair/ | [SmallestUnoccupiedChair.java] (https://github.com/gbhat/leetcode/blob/main/src/SmallestUnoccupiedChair.java) |
