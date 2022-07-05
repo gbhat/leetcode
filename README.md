@@ -34,3 +34,4 @@
 | <h3> [ 968. Binary Tree Cameras ](https://leetcode.com/problems/binary-tree-cameras/) | [BinaryTreeCameras.java](https://github.com/gbhat/leetcode/blob/main/src/BinaryTreeCameras.java) |
 | <h3> [ 1710. Maximum Units on a Truck ](https://leetcode.com/problems/maximum-units-on-a-truck/) | [MaximumUnitsOnTruck.java](https://github.com/gbhat/leetcode/blob/main/src/MaximumUnitsOnTruck.java) |
 | <h3> [ 135. Candy ](https://leetcode.com/problems/candy/) | [CandyDistribution.java](https://github.com/gbhat/leetcode/blob/main/src/CandyDistribution.java) |
+| <h3> [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | [LongestConsecutiveSequence.java](https://github.com/gbhat/leetcode/blob/main/src/LongestConsecutiveSequence.java) |
