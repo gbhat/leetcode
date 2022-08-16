@@ -47,3 +47,4 @@
 | <h3> [740. Delete and Earn](https://leetcode.com/problems/delete-and-earn/) | [DeleteAndEarn.java](https://github.com/gbhat/leetcode/blob/main/src/DeleteAndEarn.java) <br> [DeleteAndEarn2.java](https://github.com/gbhat/leetcode/blob/main/src/DeleteAndEarn2.java) |
 | <h3> [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | [ValidateBST.java](https://github.com/gbhat/leetcode/blob/main/src/ValidateBST.java) |
 | <h3> [235. Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [LCABST.java](https://github.com/gbhat/leetcode/blob/main/src/LCABST.java) <br> [LCABST2.java](https://github.com/gbhat/leetcode/blob/main/src/LCABST2.java) |
+| <h3> [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [RomanToInteger.java](https://github.com/gbhat/leetcode/blob/main/src/RomanToInteger.java) |
