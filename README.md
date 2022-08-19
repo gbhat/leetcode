@@ -1,8 +1,17 @@
+<!-- If any html syntax is used like <h1></h1>, add an empty line after it to make markdown work-->
+
+### Solutions with similar approaches:
+
+[RussianDollEnvelopes2.java](https://github.com/gbhat/leetcode/blob/main/src/RussianDollEnvelopes2.java) and [LongestIncreasingSubsequence3.java](https://github.com/gbhat/leetcode/blob/main/src/LongestIncreasingSubsequence3.java)
+
+
+### Problems and solutions:
+
 |  Problem Link | Solution |
 | ------------- | ------------- |
 | <h3> [ 79. Word Search ](https://leetcode.com/problems/word-search/) | [WordSearch.java](https://github.com/gbhat/leetcode/blob/main/src/WordSearch.java) | 
 | <h3> [ 287. Find the Duplicate Number ](https://leetcode.com/problems/find-the-duplicate-number/) | [FindDupNumber1.java](https://github.com/gbhat/leetcode/blob/main/src/FindDupNumber1.java) <br> [FindDupNumber2.java](https://github.com/gbhat/leetcode/blob/main/src/FindDupNumber2.java) | 
-| <h3> [ 354. Russian Doll Envelopes ](https://leetcode.com/problems/russian-doll-envelopes/) | [RussianDollEnvelopes.java](https://github.com/gbhat/leetcode/blob/main/src/RussianDollEnvelopes.java) | 
+| <h3> [ 354. Russian Doll Envelopes ](https://leetcode.com/problems/russian-doll-envelopes/) | [RussianDollEnvelopes.java](https://github.com/gbhat/leetcode/blob/main/src/RussianDollEnvelopes.java) <br>  [RussianDollEnvelopes2.java](https://github.com/gbhat/leetcode/blob/main/src/RussianDollEnvelopes2.java) |
 | <h3> [ 41. First Missing Positive ](https://leetcode.com/problems/first-missing-positive/) | [FirstMissingPositive.java ](https://github.com/gbhat/leetcode/blob/main/src/FirstMissingPositive.java) | 
 | <h3> [ 32. Longest Valid Parentheses ](https://leetcode.com/problems/longest-valid-parentheses/) | [LongestValidParentheses.java](https://github.com/gbhat/leetcode/blob/main/src/LongestValidParentheses.java) | 
 | <h3> [ 42. Trapping Rain Water ](https://leetcode.com/problems/trapping-rain-water/) | [TrappingRainWater.java](https://github.com/gbhat/leetcode/blob/main/src/TrappingRainWater.java) | 

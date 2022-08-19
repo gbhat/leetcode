@@ -2,19 +2,24 @@
 
 import java.util.Arrays;
 
+// Longest Increasing Order approach. This does not work for largest inputs.
+// Check RussianDollEnvelopes2.java
 public class RussianDollEnvelopes {
     public int maxEnvelopes(int[][] envs) {
-        Arrays.sort(envs, (a, b) -> a[0] != b[0] ? a[0]-b[0] : b[1] - a[1]);
+        Arrays.sort(envs, (a, b) -> a[0] - b[0]);
 
-        int[] lookup = new int[envs.length];
-        int total = 0;
-        for(int i = 0; i  < envs.length; i++) {
-            int loc = Arrays.binarySearch(lookup, 0, total, envs[i][1]);
-            if (loc < 0) loc = -loc-1;
-            if (loc == total) total++;
-            lookup[loc] = envs[i][1];
+        int[] lis = new int[envs.length];
+        Arrays.fill(lis, 1);
+
+        int max = 1;
+        for(int  i = 0; i < envs.length; i++) {
+            for(int j = i + 1; j < envs.length; j++) {
+                if (lis[j] < lis[i] + 1 && envs[i][0] < envs[j][0] && envs[i][1] < envs[j][1]) {
+                    lis[j] = lis[i] + 1;
+                    max = Math.max(lis[j], max);
+                }
+            }
         }
-        return total;
+        return max;
     }
 }
-
