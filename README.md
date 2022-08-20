@@ -2,7 +2,7 @@
 
 ### Solutions with similar approaches:
 
-[RussianDollEnvelopes2.java](https://github.com/gbhat/leetcode/blob/main/src/RussianDollEnvelopes2.java) and [LongestIncreasingSubsequence3.java](https://github.com/gbhat/leetcode/blob/main/src/LongestIncreasingSubsequence3.java)
+[RussianDollEnvelopes2.java](https://github.com/gbhat/leetcode/blob/main/src/RussianDollEnvelopes2.java) and [LongestIncreasingSubsequence4.java](https://github.com/gbhat/leetcode/blob/main/src/LongestIncreasingSubsequence4.java)
 
 
 ### Problems and solutions:
@@ -51,7 +51,7 @@
 | [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [LowestCommonAncestorBinaryTree.java](https://github.com/gbhat/leetcode/blob/main/src/LowestCommonAncestorBinaryTree.java) <br> [LowestCommonAncestorBinaryTree2.java](https://github.com/gbhat/leetcode/blob/main/src/LowestCommonAncestorBinaryTree2.java) |
 | [729. My Calendar I](https://leetcode.com/problems/my-calendar-i/) | [MyCalendar_I.java](https://github.com/gbhat/leetcode/blob/main/src/MyCalendar_I.java) |
 | [458. Poor Pigs](https://leetcode.com/problems/poor-pigs/) | [PoorPigs.java](https://github.com/gbhat/leetcode/blob/main/src/PoorPigs.java) |
-| [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | [LongestIncreasingSubsequence.java](https://github.com/gbhat/leetcode/blob/main/src/LongestIncreasingSubsequence.java) <br> [LongestIncreasingSubsequence2.java](https://github.com/gbhat/leetcode/blob/main/src/LongestIncreasingSubsequence2.java) <br> [LongestIncreasingSubsequence3.java](https://github.com/gbhat/leetcode/blob/main/src/LongestIncreasingSubsequence3.java)|
+| [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | [LongestIncreasingSubsequence.java](https://github.com/gbhat/leetcode/blob/main/src/LongestIncreasingSubsequence.java) <br> [LongestIncreasingSubsequence2.java](https://github.com/gbhat/leetcode/blob/main/src/LongestIncreasingSubsequence2.java) <br> [LongestIncreasingSubsequence3.java](https://github.com/gbhat/leetcode/blob/main/src/LongestIncreasingSubsequence3.java) <br> [LongestIncreasingSubsequence4.java](https://github.com/gbhat/leetcode/blob/main/src/LongestIncreasingSubsequence4.java)  |
 | [108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | [SortedArrayToBalancedBST.java](https://github.com/gbhat/leetcode/blob/main/src/SortedArrayToBalancedBST.java) |
 | [740. Delete and Earn](https://leetcode.com/problems/delete-and-earn/) | [DeleteAndEarn.java](https://github.com/gbhat/leetcode/blob/main/src/DeleteAndEarn.java) <br> [DeleteAndEarn2.java](https://github.com/gbhat/leetcode/blob/main/src/DeleteAndEarn2.java) |
 | [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | [ValidateBST.java](https://github.com/gbhat/leetcode/blob/main/src/ValidateBST.java) |
