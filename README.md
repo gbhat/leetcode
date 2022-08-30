@@ -58,3 +58,4 @@
 | [235. Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [LCABST.java](https://github.com/gbhat/leetcode/blob/main/src/LCABST.java) <br> [LCABST2.java](https://github.com/gbhat/leetcode/blob/main/src/LCABST2.java) |
 | [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [RomanToInteger.java](https://github.com/gbhat/leetcode/blob/main/src/RomanToInteger.java) |
 | [1338. Reduce Array Size to The Half](https://leetcode.com/problems/reduce-array-size-to-the-half/) | [ReduceArraySizeToHalf.java](https://github.com/gbhat/leetcode/blob/main/src/ReduceArraySizeToHalf.java) |
+| [200. Number of Islands](https://leetcode.com/problems/number-of-islands/) | [NumberOfIslands.java](https://github.com/gbhat/leetcode/blob/main/src/NumberOfIslands.java) |
