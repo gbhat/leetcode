@@ -60,3 +60,4 @@
 | [1338. Reduce Array Size to The Half](https://leetcode.com/problems/reduce-array-size-to-the-half/) | [ReduceArraySizeToHalf.java](https://github.com/gbhat/leetcode/blob/main/src/ReduceArraySizeToHalf.java) |
 | [200. Number of Islands](https://leetcode.com/problems/number-of-islands/) | [NumberOfIslands.java](https://github.com/gbhat/leetcode/blob/main/src/NumberOfIslands.java) |
 | [48. Rotate Image](https://leetcode.com/problems/rotate-image/) | [RotateImageClockwise.java](https://github.com/gbhat/leetcode/blob/main/src/RotateImageClockwise.java) |
+| [637. Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/) | [BinaryTreeLevelAverage.java](https://github.com/gbhat/leetcode/blob/main/src/BinaryTreeLevelAverage.java) |
