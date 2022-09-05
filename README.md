@@ -61,3 +61,4 @@
 | [200. Number of Islands](https://leetcode.com/problems/number-of-islands/) | [NumberOfIslands.java](https://github.com/gbhat/leetcode/blob/main/src/NumberOfIslands.java) |
 | [48. Rotate Image](https://leetcode.com/problems/rotate-image/) | [RotateImageClockwise.java](https://github.com/gbhat/leetcode/blob/main/src/RotateImageClockwise.java) |
 | [637. Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/) | [BinaryTreeLevelAverage.java](https://github.com/gbhat/leetcode/blob/main/src/BinaryTreeLevelAverage.java) |
+| [987. Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/) | [BinaryTreeVerticalOrder.java](https://github.com/gbhat/leetcode/blob/main/src/BinaryTreeVerticalOrder.java) <br> [BinaryTreeVerticalOrder2.java](https://github.com/gbhat/leetcode/blob/main/src/BinaryTreeVerticalOrder2.java) |
