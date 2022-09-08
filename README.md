@@ -67,7 +67,7 @@
 | $${\color{green}Easy}$$ | [606. Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/) | [BinaryTreeConstructString.java](https://github.com/gbhat/leetcode/blob/main/src/BinaryTreeConstructString.java) |
 | $${\color{green}Easy}$$ | [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [BinaryTreeInorderTraversal.java](https://github.com/gbhat/leetcode/blob/main/src/BinaryTreeInorderTraversal.java) |
 | $${\color{green}Easy}$$ | [1961. Check If String Is a Prefix of Array](https://leetcode.com/problems/check-if-string-is-a-prefix-of-array/) | [CheckStringArrayPrefix.java](https://github.com/gbhat/leetcode/blob/main/src/CheckStringArrayPrefix.java) <br> [CheckStringArrayPrefix2.java](https://github.com/gbhat/leetcode/blob/main/src/CheckStringArrayPrefix2.java) |
-
+| $${\color{orange}Medium}$$ | [973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | [KClosestPoints.java](https://github.com/gbhat/leetcode/blob/main/src/KClosestPoints.java) <br> [KClosestPoints2.java](https://github.com/gbhat/leetcode/blob/main/src/KClosestPoints2.java) <br> [KClosestPoints3.java](https://github.com/gbhat/leetcode/blob/main/src/KClosestPoints3.java) |
 
 
 Color coding for README reference: [https://stackoverflow.com/a/73613687](https://stackoverflow.com/a/73613687)
