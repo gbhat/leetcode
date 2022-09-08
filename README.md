@@ -66,7 +66,7 @@
 | $${\color{orange}Medium}$$ | [814. Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/) | [BinaryTreePruning.java](https://github.com/gbhat/leetcode/blob/main/src/BinaryTreePruning.java) <br> [BinaryTreePruning2.java](https://github.com/gbhat/leetcode/blob/main/src/BinaryTreePruning2.java) |
 | $${\color{green}Easy}$$ | [606. Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/) | [BinaryTreeConstructString.java](https://github.com/gbhat/leetcode/blob/main/src/BinaryTreeConstructString.java) |
 | $${\color{green}Easy}$$ | [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [BinaryTreeInorderTraversal.java](https://github.com/gbhat/leetcode/blob/main/src/BinaryTreeInorderTraversal.java) |
-
+| $${\color{green}Easy}$$ | [1961. Check If String Is a Prefix of Array](https://leetcode.com/problems/check-if-string-is-a-prefix-of-array/) | [CheckStringArrayPrefix.java](https://github.com/gbhat/leetcode/blob/main/src/CheckStringArrayPrefix.java) <br> [CheckStringArrayPrefix2.java](https://github.com/gbhat/leetcode/blob/main/src/CheckStringArrayPrefix2.java) |
 
 
 
