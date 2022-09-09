@@ -5,6 +5,10 @@
 [RussianDollEnvelopes2.java](https://github.com/gbhat/leetcode/blob/main/src/RussianDollEnvelopes2.java) and [LongestIncreasingSubsequence4.java](https://github.com/gbhat/leetcode/blob/main/src/LongestIncreasingSubsequence4.java)
 
 
+
+Color coding for README reference: [https://stackoverflow.com/a/73613687](https://stackoverflow.com/a/73613687)
+README emojis: [https://gist.github.com/rxaviers/7360908](https://gist.github.com/rxaviers/7360908)
+
 ### Problems and solutions:
 
 | Level | Problem Link | Solution |
@@ -68,6 +72,4 @@
 | $${\color{green}Easy}$$ | [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [BinaryTreeInorderTraversal.java](https://github.com/gbhat/leetcode/blob/main/src/BinaryTreeInorderTraversal.java) |
 | $${\color{green}Easy}$$ | [1961. Check If String Is a Prefix of Array](https://leetcode.com/problems/check-if-string-is-a-prefix-of-array/) | [CheckStringArrayPrefix.java](https://github.com/gbhat/leetcode/blob/main/src/CheckStringArrayPrefix.java) <br> [CheckStringArrayPrefix2.java](https://github.com/gbhat/leetcode/blob/main/src/CheckStringArrayPrefix2.java) |
 | $${\color{orange}Medium}$$ | [973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | [KClosestPoints.java](https://github.com/gbhat/leetcode/blob/main/src/KClosestPoints.java) <br> [KClosestPoints2.java](https://github.com/gbhat/leetcode/blob/main/src/KClosestPoints2.java) <br> [KClosestPoints3.java](https://github.com/gbhat/leetcode/blob/main/src/KClosestPoints3.java) |
-
-
-Color coding for README reference: [https://stackoverflow.com/a/73613687](https://stackoverflow.com/a/73613687)
+| $${\color{orange}Medium}$$  | [The Number of Weak Characters in the Game](https://leetcode.com/problems/the-number-of-weak-characters-in-the-game/) | [NumberWeakCharacters.java](https://github.com/gbhat/leetcode/blob/main/src/NumberWeakCharacters.java) <br> [NumberWeakCharacters2.java](https://github.com/gbhat/leetcode/blob/main/src/NumberWeakCharacters2.java)|
