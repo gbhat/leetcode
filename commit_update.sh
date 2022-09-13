@@ -82,7 +82,7 @@ else
 	echo -n  " | " >> README.md
 fi
 
-echo -n "[$title]($url) | " >> README.md
+echo -n "[$id. $title]($url) | " >> README.md
 
 is_second='N'
 for file in $files
