@@ -75,16 +75,14 @@ else
 	difficulty="\$\${\\color{green}Easy}\$\$"
 fi
 
-echo -n "| $difficulty " >> README.md
-
 read -p "Add star to this question (y/n)?" choice
 if [[ $choice == 'y' || $choise == 'Y' ]]; then
-	echo -n  " | :star2: " >> README.md
+	echo -n  "| :star2: " >> README.md
 else
 	echo -n  " | " >> README.md
 fi
 
-echo -n "[$title]($url) |" >> README.md
+echo -n "[$title]($url) | " >> README.md
 
 is_second='N'
 for file in $files
@@ -97,7 +95,7 @@ do
 	is_second='Y'
 done
 
-echo "|" >> README.md
+echo " | $difficulty |" >> README.md
 
 echo "Commiting to git"
 git add README.md
