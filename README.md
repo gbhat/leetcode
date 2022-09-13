@@ -11,6 +11,8 @@
 
 [Powerful Ultimate Binary Search Template. Solved many problems](https://leetcode.com/discuss/general-discussion/786126/Python-Powerful-Ultimate-Binary-Search-Template.-Solved-many-problems)
 
+[LeetCode Top 100 Questions](https://leetcode.com/problem-list/top-100-liked-questions/)
+
 [Color coding for github README](https://stackoverflow.com/a/73613687)
 
 [Github README emojis](https://gist.github.com/rxaviers/7360908)
