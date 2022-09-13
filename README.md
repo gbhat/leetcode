@@ -6,8 +6,14 @@
 
 
 
-Color coding for README reference: [https://stackoverflow.com/a/73613687](https://stackoverflow.com/a/73613687)
-README emojis: [https://gist.github.com/rxaviers/7360908](https://gist.github.com/rxaviers/7360908)
+### Useful links:
+[The ART of Dynamic Programming - An Intuitive Approach: From Apprentice to Master](https://leetcode.com/discuss/general-discussion/712010/The-ART-of-Dynamic-Programming-An-Intuitive-Approach%3A-from-Apprentice-to-Master)
+
+[Powerful Ultimate Binary Search Template. Solved many problems](https://leetcode.com/discuss/general-discussion/786126/Python-Powerful-Ultimate-Binary-Search-Template.-Solved-many-problems)
+
+[Color coding for github README](https://stackoverflow.com/a/73613687)
+
+[Github README emojis](https://gist.github.com/rxaviers/7360908)
 
 ### Problems and solutions:
 
