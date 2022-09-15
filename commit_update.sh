@@ -79,7 +79,7 @@ read -p "Add star to this question (y/n)?" choice
 if [[ $choice == 'y' || $choise == 'Y' ]]; then
 	echo -n  "| :star2: " >> README.md
 else
-	echo -n  " | " >> README.md
+	echo -n  "| " >> README.md
 fi
 
 echo -n "[$id. $title]($url) | " >> README.md
