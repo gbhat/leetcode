@@ -38,10 +38,15 @@ if [[ $url == "" ]]; then
 fi
 
 url=$(echo "https${url#*https}")
-echo "$url"
+echo "Final URL: $url"
+
+response=$(curl -i -sS $url)
+if [[ $response == "" ]]; then
+	echo "Could not get valid response from URL: $url..."
+	exit 1
+fi
 
 echo "Updating README.md"
-response=$(curl -i -sS $url)
 cookie=$(echo $response | grep set-cookie | cut -f2 -d':' | xargs | cut -f1 -d';')
 csrftoken=$(echo $cookie | cut -f2 -d'=')
 slug=""
