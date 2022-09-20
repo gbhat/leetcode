@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-// Backtracking. Not accepted. See the DP solution in WordBreak2.java
+// Backtracking. Not accepted.
 public class WordBreak {
     public boolean wordBreak(String s, List<String> wordDict) {
         Set<String> dict = new HashSet<>(wordDict);

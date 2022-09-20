@@ -1,6 +1,6 @@
 //https://leetcode.com/problems/unique-paths/
 
-// Recursive solution. Not accepted. Check UniquePaths2.java
+// Recursive solution. Not accepted.
 public class UniquePaths {
     int count = 0;
     public int uniquePaths(int m, int n) {

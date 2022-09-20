@@ -3,7 +3,7 @@
 import java.util.Arrays;
 import java.util.List;
 
-// Brute force solution. This gives timeout exception. Check CountSmallerAfterSelf2.java
+// Brute force solution. This gives timeout exception.
 public class CountSmallerAfterSelf {
     public List<Integer> countSmaller(int[] nums) {
         Integer[] result = new Integer[nums.length];

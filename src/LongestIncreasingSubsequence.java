@@ -1,6 +1,6 @@
 //https://leetcode.com/problems/longest-increasing-subsequence/
 
-// Recursive solution. This leads to timeout exception for large inputs. Check LongestIncreasingSubsequence2.java and LongestIncreasingSubsequence3.java
+// Recursive solution. This leads to timeout exception for large inputs.
 public class LongestIncreasingSubsequence {
     int max = 0;
     public int lengthOfLIS(int[] nums) {

@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/furthest-building-you-can-reach/
 
-// Recursive solution not accepted. Check FarthestBuildingReach2.java
+// Recursive solution not accepted.
 public class FarthestBuildingReach {
     public int furthestBuilding(int[] heights, int bricks, int ladders) {
         return farthest(heights, bricks, ladders, 0);

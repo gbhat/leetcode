@@ -2,8 +2,7 @@
 
 import java.util.*;
 
-// This solution sorts the entire array. See KClosestPoints2.java for concise implementation of same idea.
-// See KClosestPoints3.java for better and optimal approach
+// This solution sorts the entire array.
 public class KClosestPoints {
     class Point {
         public int[] coord;

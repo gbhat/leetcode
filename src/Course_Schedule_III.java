@@ -2,7 +2,7 @@
 
 import java.util.Arrays;
 
-// Recursive solution. Not accepted. Check Course_Schedule_III3.java, Course_Schedule_III4.java
+// Recursive solution. Not accepted.
 public class Course_Schedule_III {
     public int scheduleCourse(int[][] courses) {
         Arrays.sort(courses, (a, b) -> a[1] - b[1]);

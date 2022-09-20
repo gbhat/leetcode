@@ -1,6 +1,6 @@
 //https://leetcode.com/problems/interleaving-string/
 
-// Recursive solution. Does not work for large inputs. Check InterleavingString2.java, InterleavingString3.java
+// Recursive solution. Does not work for large inputs.
 public class InterleavingString {
     public boolean isInterleave(String s1, String s2, String s3) {
         int i = 0, j = 0, k = 0;

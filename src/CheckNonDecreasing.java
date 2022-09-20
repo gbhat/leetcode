@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/non-decreasing-array/
 
-//Brute force solution. Check CheckNonDecreasing2.java for efficient one
+//Brute force solution.
 public class CheckNonDecreasing {
     public boolean checkPossibility(int[] nums) {
         boolean isSmaller = false;

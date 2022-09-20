@@ -3,7 +3,6 @@
 import java.util.Arrays;
 
 // Longest Increasing Order approach. This does not work for largest inputs.
-// Check RussianDollEnvelopes2.java
 public class RussianDollEnvelopes {
     public int maxEnvelopes(int[][] envs) {
         Arrays.sort(envs, (a, b) -> a[0] - b[0]);

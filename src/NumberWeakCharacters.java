@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-// Fails for long inputs. Check NumberWeakCharacters2.java
+// Fails for long inputs.
 // Sample input: [[7,7],[1,2],[9,7],[7,3],[3,10],[9,8],[8,10],[4,3],[1,5],[1,5]]
 public class NumberWeakCharacters {
     public int numberOfWeakCharacters(int[][] prop) {

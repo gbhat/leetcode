@@ -1,6 +1,6 @@
 //https://leetcode.com/problems/min-cost-climbing-stairs/
 
-// Recursive solution. Check MinCostClimbingStairs2.java and MinCostClimbingStairs3.java
+// Recursive solution.
 public class MinCostClimbingStairs {
     public int minCostClimbingStairs(int[] cost) {
         return minCost(cost, -1);

@@ -3,7 +3,6 @@
 import java.util.*;
 
 // This approach uses a LinkedList to match the path from root to the given nodes.
-// Check LowestCommonAncestorBinaryTree2.java
 public class LowestCommonAncestorBinaryTree {
     static class TreeNode {
         int val;

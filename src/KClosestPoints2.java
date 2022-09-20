@@ -2,7 +2,7 @@
 
 import java.util.Arrays;
 
-// This solution sorts the entire array. See KClosestPoints3.java for better and optimal approach
+// This solution sorts the entire array.
 public class KClosestPoints2 {
     public int[][] kClosest(int[][] points, int k) {
         Arrays.sort(points, (o1, o2) -> {

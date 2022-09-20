@@ -1,6 +1,6 @@
 //https://leetcode.com/problems/min-cost-climbing-stairs/
 
-// DP solution with O(n) memory. Check MinCostClimbingStairs3.java
+// DP solution with O(n) memory.
 public class MinCostClimbingStairs2 {
     public int minCostClimbingStairs(int[] cost) {
         int[] dp = new int[cost.length + 1];
