@@ -72,19 +72,15 @@ if [[ $id == "null" || $title == "null" || $difficulty == "null" ]]; then
 	exit 1
 fi
 
-if [[ $difficulty == "Medium" ]]; then
-	difficulty="\$\${\\color{orange}Medium}\$\$"
-elif [[ $difficulty == "Hard" ]]; then
-	difficulty="\$\${\\color{red}Hard}\$\$"
-else
-	difficulty="\$\${\\color{green}Easy}\$\$"
-fi
-
-read -p "Add star to this question (y/n)?" choice
-if [[ $choice == 'y' || $choise == 'Y' ]]; then
+if [[ $difficulty == "Hard" ]]; then
 	echo -n  "| :star2: " >> README.md
 else
-	echo -n  "| " >> README.md
+	read -p "Add star to this question (y/n)?" choice
+	if [[ $choice == 'y' || $choise == 'Y' ]]; then
+		echo -n  "| :star2: " >> README.md
+	else
+		echo -n  "| " >> README.md
+	fi
 fi
 
 echo -n "[$id. $title]($url) | " >> README.md
@@ -99,6 +95,14 @@ do
 	echo -n " [$file](https://github.com/gbhat/leetcode/blob/main/src/$file)" >> README.md
 	is_second='Y'
 done
+
+if [[ $difficulty == "Medium" ]]; then
+	difficulty="\$\${\\color{orange}Medium}\$\$"
+elif [[ $difficulty == "Hard" ]]; then
+	difficulty="\$\${\\color{red}Hard}\$\$"
+else
+	difficulty="\$\${\\color{green}Easy}\$\$"
+fi
 
 echo " | $difficulty |" >> README.md
 
