@@ -100,3 +100,4 @@
 | [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/) |  [DesignCircularQueue.java](https://github.com/gbhat/leetcode/blob/main/src/DesignCircularQueue.java) <br> [DesignCircularQueue2.java](https://github.com/gbhat/leetcode/blob/main/src/DesignCircularQueue2.java) | $${\color{orange}Medium}$$ |
 | [838. Push Dominoes](https://leetcode.com/problems/push-dominoes/) |  [PushDominoes.java](https://github.com/gbhat/leetcode/blob/main/src/PushDominoes.java) | $${\color{orange}Medium}$$ |
 | [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) |  [RemoveNthNodeFromEndOfList.java](https://github.com/gbhat/leetcode/blob/main/src/RemoveNthNodeFromEndOfList.java) | $${\color{orange}Medium}$$ |
+| [101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) |  [BinaryTreeSymmetric.java](https://github.com/gbhat/leetcode/blob/main/src/BinaryTreeSymmetric.java) | $${\color{green}Easy}$$ |
