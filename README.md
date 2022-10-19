@@ -11,6 +11,8 @@
 
 [Powerful Ultimate Binary Search Template. Solved many problems](https://leetcode.com/discuss/general-discussion/786126/Python-Powerful-Ultimate-Binary-Search-Template.-Solved-many-problems)
 
+[How to practice for 2200+ rating in LC](https://leetcode.com/discuss/study-guide/1965086/How-to-practice-for-2200%2B-rating-in-LC)
+
 [LeetCode Top 100 Questions](https://leetcode.com/problem-list/top-100-liked-questions/)
 
 [Color coding for github README](https://stackoverflow.com/a/73613687)
@@ -123,3 +125,4 @@
 | [1832. Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/) |  [CheckSentencePangram.java](https://github.com/gbhat/leetcode/blob/main/src/CheckSentencePangram.java) <br> [CheckSentencePangram2.java](https://github.com/gbhat/leetcode/blob/main/src/CheckSentencePangram2.java) <br> [CheckSentencePangram3.java](https://github.com/gbhat/leetcode/blob/main/src/CheckSentencePangram3.java) | $${\color{green}Easy}$$ |
 | [38. Count and Say](https://leetcode.com/problems/count-and-say/) |  [CountAndSay.java](https://github.com/gbhat/leetcode/blob/main/src/CountAndSay.java) | $${\color{orange}Medium}$$ |
 | [6. Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/) |  [ZigzagConversion.java](https://github.com/gbhat/leetcode/blob/main/src/ZigzagConversion.java) <br> [ZigzagConversion2.java](https://github.com/gbhat/leetcode/blob/main/src/ZigzagConversion2.java) | $${\color{orange}Medium}$$ |
+| [692. Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) |  [TopKFrequentWords.java](https://github.com/gbhat/leetcode/blob/main/src/TopKFrequentWords.java) <br> [TopKFrequentWords2.java](https://github.com/gbhat/leetcode/blob/main/src/TopKFrequentWords2.java) | $${\color{orange}Medium}$$ |
