@@ -61,25 +61,34 @@ content=$(curl -sS -X post -H "Content-Type: application/json" -H "referer: $url
 id=$(echo $content | jq .data.question.questionFrontendId | tr -d '"')
 title=$(echo $content | jq .data.question.questionTitle | tr -d '"')
 difficulty=$(echo $content | jq .data.question.difficulty | tr -d '"')
+topicTags=$(echo $content | jq .data.question.topicTags | jq '.[].name' | tr -d '"' | tr '\n' ',' | sed 's/,$//g'  | sed 's/,/, /g')
 
 echo "Question details found:"
 echo "id: $id"
 echo "title: $title"
 echo "difficulty: $difficulty"
+echo "topicTags: $topicTags"
 
 if [[ $id == "null" || $title == "null" || $difficulty == "null" ]]; then
 	echo "Could not get some details for the question. Exiting..."
 	exit 1
 fi
 
-if [[ $difficulty == "Hard" ]]; then
-	echo -n  "| :star2: " >> README.md
+echo -n "| " >> README.md
+if [[ $difficulty == "Medium" ]]; then
+	echo -n "<picture><img class=\"emoji\" alt=\"medium\" height=\"20\" width=\"5\" src=\"https://github.com/gbhat/leetcode/blob/main/resources/yellow.png?raw=true\"></picture> " >> README.md
+elif [[ $difficulty == "Hard" ]]; then
+	echo -n "<picture><img class=\"emoji\" alt=\"hard\" height=\"20\" width=\"5\" src=\"https://github.com/gbhat/leetcode/blob/main/resources/red.png?raw=true\"></picture> " >> README.md
 else
-	read -p "Add star to this question (y/n)?" choice
+	echo -n "<picture><img class=\"emoji\" alt=\"easy\" height=\"20\" width=\"5\" src=\"https://github.com/gbhat/leetcode/blob/main/resources/green.png?raw=true\"></picture> " >> README.md
+fi
+
+if [[ $difficulty != "Hard" ]]; then
+	read -p "Star this question (y/n)?" choice
 	if [[ $choice == 'y' || $choise == 'Y' ]]; then
-		echo -n  "| :star2: " >> README.md
+		echo -n  "<picture><img class=\"emoji\" alt=\"star\" height=\"30\" width=\"30\" src=\"https://github.com/gbhat/leetcode/blob/main/resources/star.png?raw=true\"></picture> " >> README.md
 	else
-		echo -n  "| " >> README.md
+		echo -n  " " >> README.md
 	fi
 fi
 
@@ -90,21 +99,13 @@ for file in $files
 do
 	file=$(echo $file | rev | cut -f1 -d'/' | rev)
 	if [[ $is_second == 'Y'  ]]; then
-		echo -n " <br>" >> README.md
+		echo -n "<br> " >> README.md
 	fi
-	echo -n " [$file](https://github.com/gbhat/leetcode/blob/main/src/$file)" >> README.md
+	echo -n "[$file](https://github.com/gbhat/leetcode/blob/main/src/$file) " >> README.md
 	is_second='Y'
 done
 
-if [[ $difficulty == "Medium" ]]; then
-	difficulty="\$\${\\color{orange}Medium}\$\$"
-elif [[ $difficulty == "Hard" ]]; then
-	difficulty="\$\${\\color{red}Hard}\$\$"
-else
-	difficulty="\$\${\\color{green}Easy}\$\$"
-fi
-
-echo " | $difficulty |" >> README.md
+echo "| $topicTags |" >> README.md
 
 echo "Commiting to git"
 git add README.md
