@@ -40,6 +40,11 @@ fi
 url=$(echo "https${url#*https}")
 echo "Final URL: $url"
 
+if grep -q "$url" README.md; then
+	echo "Solutions to this problem exist in the repo"
+	exit 1
+fi
+
 response=$(curl -i -sS $url)
 if [[ $response == "" ]]; then
 	echo "Could not get valid response from URL: $url..."
