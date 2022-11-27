@@ -83,14 +83,12 @@ else
 	echo -n "<picture><img class=\"emoji\" alt=\"easy\" height=\"20\" width=\"5\" src=\"https://github.com/gbhat/leetcode/blob/main/resources/green.png?raw=true\"></picture> " >> README.md
 fi
 
-if [[ $difficulty != "Hard" ]]; then
-	read -p "Star this question (y/n)?" choice
+read -p "Star this question (y/n)?" choice
 	if [[ $choice == 'y' || $choise == 'Y' ]]; then
 		echo -n  "<picture><img class=\"emoji\" alt=\"star\" height=\"30\" width=\"30\" src=\"https://github.com/gbhat/leetcode/blob/main/resources/star.png?raw=true\"></picture> " >> README.md
 	else
 		echo -n  " " >> README.md
 	fi
-fi
 
 echo -n "[$id. $title]($url) | " >> README.md
 
