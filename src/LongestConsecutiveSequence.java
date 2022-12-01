@@ -2,25 +2,27 @@
 
 import java.util.*;
 
+// This gives TLE
+// For every number, we iterate the map if we find n + 1 in the map.
 public class LongestConsecutiveSequence {
     public int longestConsecutive(int[] nums) {
-        Set<Integer> set = new HashSet<>();
-        for(int n : nums)
-            set.add(n);
+        HashMap<Integer, Integer> map = new HashMap<>();
+        for(int n : nums) {
+            if (map.containsKey(n - 1))
+                map.put(n, map.get(n - 1) + 1);
+            else
+                map.put(n, 1);
 
-        int maxLen = 0;
-        for(int n : set) {
-            if (!set.contains(n - 1)) {
-                int cur = n;
-                int len = 0;
-
-                while(set.contains(cur)) {
-                    cur = cur + 1;
-                    len++;
-                }
-                maxLen = Math.max(len, maxLen);
+            while(map.containsKey(n + 1)) {
+                map.put(n + 1, map.get(n) + 1);
+                n = n + 1;
             }
         }
-        return maxLen;
+
+        int max = 0;
+        for(int v : map.values())
+            max = Math.max(v, max);
+        return max;
     }
 }
+
