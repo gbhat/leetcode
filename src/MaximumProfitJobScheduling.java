@@ -16,13 +16,13 @@ public class MaximumProfitJobScheduling {
         return maxProfit(jobs, 0);
     }
 
-    private int maxProfit(int[][] tasks, int begin) {
-        if (begin == tasks.length) return 0;
+    private int maxProfit(int[][] jobs, int idx) {
+        if (idx == jobs.length) return 0;
 
-        int[] task = tasks[begin];
-        int idx = Arrays.binarySearch(tasks, begin + 1, tasks.length,
+        int[] task = jobs[idx];
+        int pos = Arrays.binarySearch(jobs, idx + 1, jobs.length,
                 new int[]{task[1], 0}, (a, b) -> a[0] == b[0] ? a[1] - b[1]: a[0] - b[0]);  // Important step. We search for {task[1], 0}, to get the smallest end first
-        if (idx < 0) idx = -idx - 1;
-        return Math.max(task[2] + maxProfit(tasks, idx), maxProfit(tasks, begin + 1));
+        if (pos < 0) pos = -pos - 1;
+        return Math.max(task[2] + maxProfit(jobs, pos), maxProfit(jobs, idx + 1));
     }
 }
