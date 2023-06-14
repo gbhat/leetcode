@@ -13,6 +13,10 @@
 
 [How to practice for 2200+ rating in LC](https://leetcode.com/discuss/study-guide/1965086/How-to-practice-for-2200%2B-rating-in-LC)
 
+[Sliding Window Cheat Sheet](https://leetcode.com/problems/frequency-of-the-most-frequent-element/solutions/1175088/c-maximum-sliding-window-cheatsheet-template/)
+
+[A Concise Template for "Overlapping Interval Problem"](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/solutions/93735/a-concise-template-for-overlapping-interval-problem/)
+
 [LeetCode Top 100 Questions](https://leetcode.com/problem-list/top-100-liked-questions/)
 
 [Color coding for github README](https://stackoverflow.com/a/73613687)
